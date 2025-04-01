@@ -1,3 +1,5 @@
+
+<script src="script.js"></script>
 <?php
 include_once("conexao.php");
 
@@ -11,7 +13,7 @@ $serie = $_POST['serie'];
 $senha = $_POST['senha'];
 
 $sql = " INSERT INTO aluno (nome,data_nasc,email,telefone,serie,senha)
-values ('$nome',$data_nasc,'$email','$telefone','$serie','$senha')";
+values ('$nome','$data_nasc','$email','$telefone','$serie','$senha')";
 if (mysqli_query($conexao,$sql)){
     echo "Cadastrado com sucesso";  
 }
