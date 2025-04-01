@@ -1,29 +1,12 @@
 <?php
-
-
-
-$servidor = "localhost";
-
+$servidor ="localhost";
 $usuario = "root";
+$senha = "123456";
+$dbname="site";
 
-
-
-$dbname = "site";
-
-$senha="123456";
-
-$conexao = mysqli_connect($servidor, $usuario,$dbname, $senha );
-
-
-
-if (!$conexao) {
-
-    die("Houve um erro: " . mysqli_connect_error());
-
+$conexao=mysqli_connect($servidor, $usuario, $senha, $dbname);
+if(!$conexao){
+ die("Houve um erro: ".mysqli_connect_error());
 }
 
-
-
 ?>
-
-
