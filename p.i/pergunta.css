@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .query {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a3774;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .query-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1a3774;
+    z-index: -1;
+  }
+  
+  .query-container {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 40px 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo-circle {
+    background-color: #1a3774;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 64px;
+    height: auto;
+  }
+  
+  .antes-de-tudo {
+    font-size: 2.2rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 200;
+    color: #000;
+  }
+  
+  .voc-j-possui {
+    font-size: 1.5rem;
+    color: rgba(26, 55, 116, 0.42);
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .button {
+    background-color: #1a3774;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 300px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #163062;
+  }
+  
+  .voltar-ao-nicio {
+    font-size: 1rem;
+    color: #1a3774;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .antes-de-tudo {
+      font-size: 1.8rem;
+    }
+  
+    .voc-j-possui {
+      font-size: 1.2rem;
+    }
+  
+    .button {
+      padding: 12px 20px;
+    }
+  
+    .logo-circle {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .logo-img {
+      width: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .antes-de-tudo {
+      font-size: 1.5rem;
+    }
+  
+    .voc-j-possui {
+      font-size: 1rem;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }
+  

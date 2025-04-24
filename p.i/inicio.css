@@ -1,0 +1,637 @@
+.pesquisa-emprego-child {
+    position: absolute;
+    top: 128px;
+    left: 39px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    width: 657px;
+    height: 60px;
+}
+.pesquise-por-empregos {
+    position: absolute;
+    top: 145px;
+    left: 81px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #a6a6a6;
+    display: inline-block;
+    width: 405px;
+    height: 43px;
+}
+.pesquisa-emprego-item {
+    position: absolute;
+    top: 128px;
+    left: 760px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    width: 528px;
+    height: 242px;
+}
+.pesquisa-emprego-inner {
+    position: absolute;
+    top: 267px;
+    left: 71px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    width: 533px;
+    height: 131px;
+}
+.rectangle-div {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 516px;
+    right: -48px;
+    bottom: 534px;
+    left: 1274px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child1 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 684px;
+    right: 126px;
+    bottom: 366px;
+    left: 1100px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child2 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 684px;
+    right: 300px;
+    bottom: 366px;
+    left: 926px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child3 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 516px;
+    right: 126px;
+    bottom: 534px;
+    left: 1100px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child4 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 516px;
+    right: 300px;
+    bottom: 534px;
+    left: 926px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child5 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 852px;
+    right: -48px;
+    bottom: 198px;
+    left: 1274px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child6 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 1020px;
+    right: -48px;
+    bottom: 30px;
+    left: 1274px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child7 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 684px;
+    right: -48px;
+    bottom: 366px;
+    left: 1274px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child8 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 852px;
+    right: 126px;
+    bottom: 198px;
+    left: 1100px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child9 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 852px;
+    right: 300px;
+    bottom: 198px;
+    left: 926px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child10 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 1020px;
+    right: 126px;
+    bottom: 30px;
+    left: 1100px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child11 {
+    position: absolute;
+    height: calc(100% - 1050px);
+    width: calc(100% - 1226px);
+    top: 1020px;
+    right: 300px;
+    bottom: 30px;
+    left: 926px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.pesquisa-emprego-child12 {
+    position: absolute;
+    top: 429px;
+    left: 71px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    width: 533px;
+    height: 131px;
+}
+.pesquisa-emprego-child13 {
+    position: absolute;
+    top: 589px;
+    left: 71px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    width: 533px;
+    height: 131px;
+}
+.pesquisa-emprego-child14 {
+    position: absolute;
+    top: 749px;
+    left: 71px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    width: 533px;
+    height: 131px;
+}
+.pesquisa-emprego-child15 {
+    position: absolute;
+    top: 909px;
+    left: 73px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+    width: 533px;
+    height: 131px;
+}
+.enviar-seu-currculo {
+    position: absolute;
+    top: 180px;
+    left: 999px;
+    line-height: 24px;
+    display: inline-block;
+    width: 249px;
+}
+.profissional-em-ads {
+    position: absolute;
+    top: 309px;
+    left: 215px;
+    line-height: 24px;
+    display: inline-block;
+    width: 159px;
+    height: 24px;
+}
+.vagas-de-emprego {
+    position: absolute;
+    top: 224px;
+    left: 71px;
+    line-height: 24px;
+    display: inline-block;
+    width: 154px;
+}
+.veja-mais {
+    position: absolute;
+    top: 227px;
+    left: 530px;
+    line-height: 24px;
+    display: inline-block;
+    color: #aca8a8;
+    width: 73px;
+    height: 24px;
+}
+.envie-seu-curriculo {
+    margin: 0;
+}
+.envie-seu-curriculo-container {
+    position: absolute;
+    top: 228px;
+    left: 965px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 100;
+    display: inline-block;
+    width: 300px;
+    height: 58px;
+}
+.pesquisa-emprego-child16 {
+    position: absolute;
+    top: 290px;
+    left: 999px;
+    border-radius: 30px;
+    background-color: #1a3774;
+    width: 223px;
+    height: 48px;
+}
+.enviar-seu-currculo1 {
+    position: absolute;
+    top: 303px;
+    left: 1023px;
+    line-height: 24px;
+    display: inline-block;
+    color: #fff;
+    width: 176px;
+    height: 23px;
+}
+.ellipse-div {
+    position: absolute;
+    top: 298px;
+    left: 107px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 80px;
+    height: 74px;
+}
+.pesquisa-emprego-child17 {
+    position: absolute;
+    top: 461px;
+    left: 104px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 86px;
+    height: 74px;
+}
+.profissional-em-jornalismo {
+    position: absolute;
+    top: 475px;
+    left: 215px;
+    line-height: 24px;
+    display: inline-block;
+    width: 213px;
+    height: 23px;
+}
+.profissional-em-direito {
+    position: absolute;
+    top: 788px;
+    left: 215px;
+    line-height: 24px;
+    display: inline-block;
+    width: 225px;
+    height: 24px;
+}
+.profissional-em-direito1 {
+    position: absolute;
+    top: 948px;
+    left: 217px;
+    line-height: 24px;
+    display: inline-block;
+    width: 225px;
+    height: 24px;
+}
+.pesquisa-emprego-child18 {
+    position: absolute;
+    top: 618px;
+    left: 104px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 86px;
+    height: 74px;
+}
+.monitor-icon {
+    position: absolute;
+    top: 312px;
+    left: 122px;
+    width: 50px;
+    height: 48px;
+    overflow: hidden;
+}
+.profissional-em-engenharia {
+    position: absolute;
+    top: 628px;
+    left: 215px;
+    line-height: 24px;
+    display: inline-block;
+    width: 251px;
+    height: 23px;
+}
+.tv-icon {
+    position: absolute;
+    top: 472px;
+    left: 122px;
+    width: 51px;
+    height: 48px;
+    overflow: hidden;
+}
+.pesquisa-emprego-child19 {
+    position: absolute;
+    top: 779px;
+    left: 104px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 86px;
+    height: 74px;
+}
+.pesquisa-emprego-child20 {
+    position: absolute;
+    top: 939px;
+    left: 106px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 87px;
+    height: 74px;
+}
+.image-63-icon {
+    position: absolute;
+    top: 629px;
+    left: 123px;
+    width: 49px;
+    height: 48px;
+    object-fit: cover;
+}
+.image-64-icon {
+    position: absolute;
+    top: 792px;
+    left: 123px;
+    width: 49px;
+    height: 48px;
+    object-fit: cover;
+}
+.image-70-icon {
+    position: absolute;
+    top: 952px;
+    left: 125px;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+}
+.text {
+    position: absolute;
+    top: 377px;
+    left: 102px;
+    font-size: 20px;
+    font-family: Inter;
+    text-align: left;
+}
+.frame-div {
+    position: absolute;
+    top: 537px;
+    left: 1386px;
+    width: 68px;
+    height: 66px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #1a3774;
+    width: 68px;
+    height: 66px;
+}
+.image-13-icon {
+    position: absolute;
+    top: 14.52px;
+    left: 6.52px;
+    border-radius: 10px;
+    width: 55px;
+    height: 37.1px;
+    object-fit: cover;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 216px;
+    left: 1330px;
+    width: 68px;
+    height: 66px;
+}
+.search-icon {
+    position: absolute;
+    top: 134px;
+    left: 57px;
+    width: 44px;
+    height: 43px;
+    overflow: hidden;
+}
+.pesquisa-emprego-child21 {
+    position: absolute;
+    top: -3px;
+    left: -66px;
+    border-radius: 30px;
+    background-color: #1a3774;
+    width: 1512px;
+    height: 102px;
+}
+.pesquisa-emprego-child22 {
+    position: absolute;
+    top: 19px;
+    left: 1123px;
+    border-radius: 30px;
+    background-color: #f0f0f0;
+    width: 195px;
+    height: 64px;
+}
+.ver-seu-perfil {
+    position: absolute;
+    top: 39px;
+    left: 1093px;
+    line-height: 24px;
+    color: #a6a6a6;
+    display: inline-block;
+    width: 290px;
+    height: 24px;
+}
+.achar-vagas {
+    position: absolute;
+    top: 40px;
+    left: 334px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 24px;
+}
+.avaliaes-de-empresas {
+    position: absolute;
+    top: 40px;
+    left: 455px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 24px;
+}
+.inicio {
+    position: absolute;
+    top: 40px;
+    left: 130px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57px;
+    height: 24px;
+}
+.empresa {
+    position: absolute;
+    top: 40px;
+    left: 680px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+}
+.mensagens {
+    position: absolute;
+    top: 40px;
+    left: 214px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 24px;
+}
+.image-132-icon {
+    position: absolute;
+    top: 20px;
+    left: 1128px;
+    width: 63px;
+    height: 63px;
+    object-fit: cover;
+    opacity: 0.31;
+}
+.image-133-icon {
+    position: absolute;
+    top: 21px;
+    left: 1128px;
+    width: 63px;
+    height: 63px;
+    object-fit: cover;
+    opacity: 0.31;
+}
+.screenshot-2025-04-02-at-08-43-icon {
+    position: absolute;
+    top: 14px;
+    left: 26px;
+    width: 77px;
+    height: 67px;
+    object-fit: cover;
+}
+.image-136-icon {
+    position: absolute;
+    top: 126px;
+    left: 784px;
+    width: 227px;
+    height: 227px;
+    object-fit: cover;
+}
+.image-137-icon {
+    position: absolute;
+    top: 411px;
+    left: 978px;
+    width: 93px;
+    height: 94px;
+    object-fit: cover;
+}
+.image-138-icon {
+    position: absolute;
+    top: 415px;
+    left: 1136px;
+    width: 123px;
+    height: 87px;
+    object-fit: cover;
+}
+.image-139-icon {
+    position: absolute;
+    top: 584px;
+    left: 801px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+.image-140-icon {
+    position: absolute;
+    top: 579px;
+    left: 978px;
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+}
+.pesquisa-emprego {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1165px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-family: Roboto;
+}
+

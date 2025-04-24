@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap" />
+  <link rel="stylesheet" href="pergunta.css">
+  <title>Pronexus</title>
+</head>
+<body>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <div class="query">
+    <div class="query-background"></div>
+
+    <div class="query-container">
+      <div class="logo-circle">
+        <img class="logo-img" src="./screenshot-20250402-at-084320-pi-2-figma-removebg-preview-2.png" alt="Logo">
+      </div>
+
+      <h2 class="antes-de-tudo">Antes de tudo</h2>
+      <p class="voc-j-possui">Você já Possui uma conta?</p>
+
+      <button class="button simlogin" id="simLoginText">Sim / Login</button>
+      <button class="button nocadastrar-se" id="noCadastrarSeText" onclick="pscd()">Não / Cadastrar-se</button>
+
+      <a class="voltar-ao-nicio" id="voltarAoNicio" href="./index.html">Voltar ao Início</a>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("voltarAoNicio").addEventListener("click", function () {
+      window.location.href = "index.html"; // ajuste conforme necessário
+    });
+
+
+
+    document.getElementById("simLoginText").addEventListener("click", function () {
+      console.log("Usuário escolheu fazer login");
+      alert("Redirecionando para login...");
+    });
+    function pscd() {
+        window.location.href = 'pscd.html';
+
+    }
+  </script>
+
+</body>
+</html>

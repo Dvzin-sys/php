@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a3774;
+    color: #fff;
+  }
+  
+  .query2 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .query2-content {
+    background-color: #fff;
+    color: #1a3774;
+    border-radius: 40px;
+    padding: 60px 40px;
+    max-width: 700px;
+    width: 100%;
+    min-height: 550px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .logo-box {
+    position: absolute;
+    top: -50px;
+    left: 40px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .ellipse-div {
+    width: 100px;
+    height: 100px;
+    background-color: #1a3774;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .logo-img {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+  
+  .para-se-cadastrar {
+    font-size: 36px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .escolha-uma-das {
+    font-size: 22px;
+    font-family: 'League Spartan', sans-serif;
+    color: rgba(26, 55, 116, 0.6);
+    margin-bottom: 30px;
+  }
+  
+  .btn-option {
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 40px;
+    background-color: #1a3774;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-option:hover {
+    background-color: #004c92;
+  }
+  
+  .voltar-ao-nicio {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #1a3774;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 600px) {
+    .query2-content {
+      padding: 40px 20px;
+      max-width: 100%;
+      min-height: unset;
+    }
+  
+    .para-se-cadastrar {
+      font-size: 28px;
+    }
+  
+    .escolha-uma-das {
+      font-size: 18px;
+    }
+  
+    .btn-option {
+      font-size: 18px;
+      padding: 12px;
+      width: 90%;
+    }
+  
+    .logo-box {
+      left: 20px;
+      top: -40px;
+    }
+  
+    .logo-img {
+      width: 50px;
+      height: 50px;
+      top: 25px;
+      left: 25px;
+    }
+  }
+  

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pronexus</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;600;700;800&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;800&display=swap" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'League Spartan', sans-serif;
+      overflow-x: hidden;
+    }
+
+    .tela-inicial {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Topo / Navegação */
+    .rectangle-group {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      flex-wrap: wrap;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .logo-img {
+      width: 80px;
+      height: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links b {
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .btn-cadastrar {
+      background-color: #1a3774;
+      color: #fff;
+      border: none;
+      border-radius: 1000px;
+      padding: 12px 24px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn-cadastrar:hover {
+      background-color: #004c92;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 60px 40px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .text-block {
+      max-width: 600px;
+    }
+
+    .bem-vindo {
+      font-size: 56px;
+      font-family: Rubik;
+      color: #004c92;
+      margin-bottom: 20px;
+    }
+
+    .sua-carreira-sade {
+      font-size: 22px;
+      font-family: Roboto;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+
+    .comear-agora {
+      background-color: #1a3774;
+      color: white;
+      font-size: 20px;
+      font-family: Roboto;
+      font-weight: 800;
+      padding: 16px 32px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .comear-agora:hover {
+      background-color: #004c92;
+    }
+
+    .hero-img {
+      max-width: 600px;
+      width: 100%;
+      margin-left: 40px;
+    }
+
+    .hero-img img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    /* Seções abaixo */
+    .sections {
+      padding: 60px 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      background-color: #f5f5f5;
+    }
+
+    .section-card {
+      flex: 1 1 300px;
+      max-width: 400px;
+    }
+
+    .section-card h2 {
+      font-size: 28px;
+      color: #1a3774;
+      margin-bottom: 10px;
+      font-weight: 800;
+    }
+
+    .section-card p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    /* Rodapé */
+    .footer {
+      background-color: #1a3774;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 16px;
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .rectangle-group {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-left {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+      }
+
+      .btn-cadastrar {
+        align-self: flex-end;
+        margin-top: 10px;
+      }
+
+      .hero-section {
+        flex-direction: column;
+        padding: 40px 20px;
+      }
+
+      .hero-img {
+        margin-left: 0;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <div class="tela-inicial">
+
+    <!-- Topo -->
+    <div class="rectangle-group">
+      <div class="nav-left">
+        <img src="./assets/img/chat-gpt-image-2-de-abr-de-20250841352.png" alt="Logo" class="logo-img">
+        <div class="nav-links">
+          <b class="tela-incial">Tela Inicial</b>
+          <b class="sobre" id="sobreText">Sobre</b>
+          <b class="contatos">Contatos</b>
+        </div>
+      </div>
+      <button class="btn-cadastrar" onclick="ant()">Cadastrar-se</button>
+      <a href="telainicio.html"><button>tela ini</button></a>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero-section">
+      <div class="text-block">
+        <div class="bem-vindo">Bem-vindo!</div>
+        <div class="sua-carreira-sade">Sua carreira, saúde e bem-estar em um só lugar.</div>
+        <button class="comear-agora" id="comearAgoraText" onclick="ant()">Começar agora</button>
+      </div>
+      <div class="hero-img">
+        <img src="./assets/img/design-sem-nome-1.png" alt="Imagem principal">
+      </div>
+    </div>
+
+    <!-- Seções -->
+    <div class="sections" data-scroll-to="rectangle">
+      <div class="section-card">
+        <h2>Nossa Missão</h2>
+        <p>Inspirar mudanças positivas por meio de soluções tecnológicas acessíveis e inclusivas.</p>
+      </div>
+      <div class="section-card">
+        <h2>Quem Somos</h2>
+        <p>Somos um grupo de pessoas preparadas para fazer a diferença na saúde e bem-estar.</p>
+      </div>
+      <div class="section-card">
+        <h2>Saúde</h2>
+        <p>Consultas com profissionais de saúde diretamente pelo app.</p>
+      </div>
+      <div class="section-card">
+        <h2>Carreira</h2>
+        <p>Acesso a oportunidades de emprego com empresas confiáveis.</p>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+      <div>copyright © 2025 - Pronexus</div>
+      <div>Todos os direitos reservados</div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script>
+    function ant() {
+      window.location.href = 'pergunta.html';
+    }
+    function ant2() {
+      window.location.href = 'pergunta.html';
+    }
+    document.getElementById("sobreText").addEventListener("click", function () {
+      const anchor = document.querySelector("[data-scroll-to='rectangle']");
+      if (anchor) {
+        anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  </script>
+</body>
+</html>

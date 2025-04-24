@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro Profissional</title>
+  <link rel="stylesheet" href="./cadastropro.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="cadastro-profissional">
+    <div class="cadastro-container">
+      
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+      <!-- Lado Esquerdo -->
+      <div class="side-panel">
+        <div class="logo-circle">
+          <img class="logo-img" src="screenshot-20250402-at-084320-pi-2-figma-removebg-preview-2.png" alt="Logo">
+        </div>
+        <h2 class="bem-vindo">Bem vindo!</h2>
+        <p class="insira-seu-email">Insira seu email e crie sua senha</p>
+        <button class="btn-outline" id="voltarText">Voltar</button>
+      </div>
+
+      <!-- Lado Direito / Formulário -->
+      <div class="form-panel">
+        <h1 class="cadastro-title">Cadastro profissional</h1>
+
+        <form id="cadastroForm" action="cadastropro.php" method="post">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required />
+          </div>
+          <br><br>
+
+          <button type="submit" class="btn-primary" >Cadastrar</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // Redireciona ao clicar em "Voltar"
+    document.getElementById("voltarText").addEventListener("click", () => {
+      window.location.href = "index.html"; // Ajuste conforme seu projeto
+    });
+
+
+  </script>
+</body>
+</html>

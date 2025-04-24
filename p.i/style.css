@@ -1,0 +1,7 @@
+body{
+  width: 1380px;
+  height: 1165px;
+  flex-shrink: 0;
+  background: #FFF;
+  font-family: 'Roboto', sans-serif;
+}

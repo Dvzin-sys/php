@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pronexus</title>
+
+  <!-- Fontes -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap" />
+  <link rel="stylesheet" href="pscd.css" />
+</head>
+<body>
+  
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <div class="query2">
+    <div class="query2-content">
+
+      <div class="logo-box">
+        <div class="ellipse-div"></div>
+        <img src="./screenshot-20250402-at-084320-pi-2-figma-removebg-preview-2.png" alt="Logo" class="logo-img">
+      </div>
+
+      <h1 class="para-se-cadastrar">Para se cadastrar</h1>
+      <p class="escolha-uma-das">Escolha uma das 3 opções abaixo</p>
+
+      <button class="btn-option" id="btnProfissional">Profissional</button>
+      <br>
+      <button class="btn-option" id="btnEmpresario">Empresárial</button>
+      <br>
+      <button class="btn-option" id="btnSaude">Saúde</button>
+
+      <a href="index.html" class="voltar-ao-nicio">Voltar ao início</a>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("btnProfissional").addEventListener("click", function () {
+      window.location.href = "cadastropro.html";
+    });
+
+    document.getElementById("btnEmpresario").addEventListener("click", function () {
+      window.location.href = "empresario.html";
+    });
+
+    document.getElementById("btnSaude").addEventListener("click", function () {
+      window.location.href = "saude.html";
+    });
+  </script>
+
+</body>
+</html>
